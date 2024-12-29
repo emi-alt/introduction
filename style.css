@@ -1,0 +1,8 @@
+p{
+    background-color: beige;
+}
+body{
+    background-image: url('flowers_name_in_english.jpg');
+    background-repeat: round;
+    background-position: bottom-left;
+}
