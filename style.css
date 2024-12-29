@@ -6,3 +6,23 @@ body{
     background-repeat: round;
     background-position: bottom-left;
 }
+#d1{
+    background: linear-gradient(pink,rgb(131, 177, 230))
+}
+#h6{
+    background: linear-gradient(to left, purple, rgb(215, 211, 211))
+}
+#d2{
+    height: 100px;
+    width: 100px;
+    animation-name: colorfill;
+    animation-duration: 20s;
+}
+@keyframes colorfill {
+    0%{background-color: red;}
+    20%{background-color: rgb(255, 213, 0);}
+    40%{background-color: rgb(0, 255, 38);}
+    60%{background-color: rgb(0, 106, 255);}
+    80%{background-color: rgb(255, 0, 238);}
+    100%{background-color:antiquewhite;}
+}
