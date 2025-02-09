@@ -2,7 +2,7 @@ p{
     background-color: beige;
 }
 body{
-    background-image: url('flowers_name_in_english.jpg');
+    
     background-repeat: round;
     background-position: bottom-left;
 }
@@ -25,4 +25,37 @@ body{
     60%{background-color: rgb(0, 106, 255);}
     80%{background-color: rgb(255, 0, 238);}
     100%{background-color:antiquewhite;}
+}
+
+div{
+    right:30px;
+    border:3px solid rgb(111, 215, 241);
+}
+
+div.absolute{
+    position:absolute;
+    left: 200px;
+    right: 100px;
+    border: 3px solid salmon;
+}
+
+div.relative{
+    position: relative;
+    left: 100px;
+    border: 3px plum;
+}
+
+div.fixed{
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    width: 100px;
+    border: 3px palegoldenrod;
+}
+
+div.sticky{
+    position: sticky;
+    top: 1px;
+    left: 20px;
+    width: 100px;
 }
